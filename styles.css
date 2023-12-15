@@ -1,0 +1,137 @@
+* ,
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+.page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card {
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background: hsl(216, 50%, 16%);
+}
+.theimage {
+    width: 100%;
+    height: 100%;
+    position: relative;
+} 
+.theimage > .equilibrium {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+.view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background-color: aqua;
+    padding: 41.5%;
+    border-radius: 10px;
+    opacity: 0;
+}
+.view:hover {
+    opacity: 0.6;
+}
+.thetext {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    gap: 15px;
+}
+.thetext > h3 {
+    color: hsl(0, 0%, 100%);
+}
+.thetext > h3:active {
+    color: hsl(178, 100%, 50%);
+}
+.thetext > .paragraph {
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+.thetext > .priceInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priceInfo > .price {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+}
+.price > span {
+    margin-left: 8px;
+    font-weight: 500;
+}
+.left {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+.left > img {
+    margin-right: 5px;
+}
+hr {
+    color: hsl(215, 32%, 27%);
+}
+.CreatedBy {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.CreatedBy > img {
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.CreatedBy > div {
+    margin-left: 10px;
+}
+.creater > .one {
+    color: hsl(215, 51%, 70%);
+}
+.creater > span > a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+.creater > span > a:active {
+    color: hsl(178, 100%, 50%);
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+}
+.attribution a { 
+    color: hsl(178, 100%, 50%); 
+}
+
+
